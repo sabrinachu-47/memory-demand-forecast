@@ -4,7 +4,7 @@ An end-to-end demand-planning analysis for the memory semiconductor industry: fo
 
 **[Open the interactive Tableau dashboard](https://public.tableau.com/views/MemoryDemandForecastAccuracyDashboard_/Dashboard1)** · [Open the notebook in Colab](https://colab.research.google.com/github/sabrinachu-47/memory-demand-forecast/blob/main/notebooks/memory_demand_forecast.ipynb)
 
-[![Dashboard preview: click to open the interactive version](images/dashboard.png)](https://public.tableau.com/views/MemoryDemandForecastAccuracyDashboard_/Dashboard1)
+[![Dashboard preview: click to open the interactive version](Image/dashboard.png)](https://public.tableau.com/views/MemoryDemandForecastAccuracyDashboard_/Dashboard1)
 
 ## The question
 
@@ -17,7 +17,7 @@ Demand planners need to know two things about any forecast: **how accurate it is
 ## Data
 
 - **US semiconductor production index**, monthly, 2010 to August 2026, from the Federal Reserve (FRED series [IPG3344S](https://fred.stlouisfed.org/series/IPG3344S), seasonally adjusted, and [IPG3344N](https://fred.stlouisfed.org/series/IPG3344N), not seasonally adjusted).
-- **Kioxia quarterly results**, FY2020 Q1 to FY2026 Q1 (25 quarters of revenue), plus quarter-over-quarter bit growth and average selling price (ASP) for 13 quarters, compiled from Kioxia's [investor relations](https://www.kioxia-holdings.com/en-jp/ir.html) earnings materials. Each figure's source is recorded in `data/kioxia_quarterly.csv`.
+- **Kioxia quarterly results**, FY2020 Q1 to FY2026 Q1 (25 quarters of revenue), plus quarter-over-quarter bit growth and average selling price (ASP) for 13 quarters, compiled from Kioxia's [investor relations](https://www.kioxia-holdings.com/en-jp/ir.html) earnings materials. Each figure's source is recorded in `Data/kioxia_quarterly.csv`.
 
 ## Method
 
@@ -54,10 +54,10 @@ Demand planners need to know two things about any forecast: **how accurate it is
 
 ## Repository contents
 
+- `Data/` – input and output data files
+- `Image/` – dashboard preview
 - `notebooks/` – Python analysis (Google Colab), with notes for each step
-- `data/` – input and output data files
-- `tableau/` – Tableau workbook (.twbx)
-- `images/` – dashboard preview
+- `Tableau/` – Tableau workbook (.twbx)
 
 ## Tools
 
